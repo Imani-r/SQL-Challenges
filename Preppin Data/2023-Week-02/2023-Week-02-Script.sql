@@ -1,4 +1,4 @@
-/* Challenge 
+/* Challenge: 
 Data Source Bank has a requirement to construct International Bank Account Numbers (IBANs), 
 even for Transactions taking place in the UK. We have all the information in separate fields, 
 we just need to put it altogether in the following order:
