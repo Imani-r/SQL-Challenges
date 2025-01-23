@@ -1,5 +1,10 @@
+/* Challenge: 
+This week we have had a report with a number of transactions that have not just our transactions but other banks' too. 
+Can you help clean up the data?*/
+
 SELECT 
 -- Split the Transaction Code to extract the letters at the start of the transaction code
+    -- Rename the new filed with the Bank code 'Bank'
     split_part(transaction_code,'-',1) AS "Bank"
 --Total Values of Transactions by each bank
     ,SUM(value) AS "Value"
