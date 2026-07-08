@@ -16,7 +16,7 @@ SELECT
 
 -- Change the date to be the day of the week
     dayname("Transaction Date") AS "Transaction Date"
-FROM read_csv_auto('/Users/faithrotich/Desktop/SQL Challenges/challenges/PD 2023 Wk 1/data/PD 2023 Wk 1 Input.csv');
+FROM read_csv_auto('/Users/faithrotich/Desktop/SQL-Challenges/preppin_data/2023_week_01/data/pd_2023_wk_1_input.csv');
 
 -- 1. Total Values of Transactions by each bank
 SELECT 

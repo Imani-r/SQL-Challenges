@@ -1,3 +1,3 @@
 # LEGO-SQL-Analysis
 
-![](./ER_Diagram.png)
+![](./er_diagram.png)
